@@ -21,6 +21,8 @@
 // You should have received a copy of the GNU General Public License
 // along with Editcp.  If not, see <http://www.gnu.org/licenses/>.
 
+// +build !windows
+
 package l
 
 import (
