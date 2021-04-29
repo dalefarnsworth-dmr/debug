@@ -125,7 +125,7 @@ func copyPanicString(source, dest string) {
 	}
 }
 
-func init() {
+func WindowsSaveDebuggingInfo() {
 	copyPanicString(StderrFilename, PreviousPanicFilename)
 
 	stderr, err := os.Create(StderrFilename)

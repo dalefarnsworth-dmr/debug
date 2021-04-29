@@ -50,6 +50,9 @@ func display(title string, v ...interface{}) {
 	fmt.Fprint(os.Stderr, v...)
 }
 
+func WindowsSaveDebuggingInfo() {
+}
+
 func PreviousPanicString() string {
 	return ""
 }
